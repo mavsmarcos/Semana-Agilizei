@@ -53,7 +53,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secretes.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: cypress/reports
+          FOLDER: cypress/integration
           
       
       
