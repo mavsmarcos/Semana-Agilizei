@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation",
+    "experimentalSourceRewriting": true,
+    "watchForFileChanges": false,
+    "testeFiles": "**/*.feature"
+}
