@@ -20,6 +20,7 @@ context('Cadastro', () => {
         // Preenchendo a página
         cy.get('#email_create').type(chance.email());
         cy.get('#SubmitCreate > span').click();
+        cy.wait(5000);
 
         // Efetuar o cadastro no site
   cy.get('#customer_firstname').type(chance.first());
